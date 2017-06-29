@@ -31,10 +31,6 @@ CREATE TABLE IF NOT EXISTS `office_ar` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
 
---
--- dump ตาราง `office_ar`
---
-
 INSERT INTO `office_ar` (`id`, `name`, `sex`, `id_card`, `expire_date`, `address`, `phone`, `provinceID`, `zipcode`, `detail`, `comment`, `interest`, `period`, `period_type`, `aggregate`, `include_interest`, `latigude`, `lantigude`, `map`, `zoom`) VALUES
 (1, 'นายทดสอบ ลูกหนี้', 'm', '010101010101', '2017-01-01', '111 หมู่ 1 ต.ลาดหญ้า อ.เมือง', '01010101', '103', '71000', 'ที่ดินพร้อมสิ่งปลูกสร้าง ตามใบ ภ.บ.ท.5 เลขที่สำรวจ 11/111 หมู่ที่ 11 ตำบล วังด้ง อำเภอ เมือง จังหวัด กาญจนบุรี เนื้อที่ 11 ไร่ 11 งาน 11 วา', '', 20, 1, 12, 34000, 1, '', '', '', 0);
 
